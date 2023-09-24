@@ -23,7 +23,7 @@ then
 	echo -n "Do you want to download it again? [y|N]"
 	read to_download
 
-	if [[ "${to_download}" == "N" || "${to_download}" == "" || "${to_download" == "n" ]]
+	if [[ "${to_download}" == "N" || "${to_download}" == "" || "${to_download}" == "n" ]]
 	then
 		echo "Using the existing file..."
 	elif [[ "${to_download}" == "y" || "${to_download}" == "Y" ]]
@@ -80,7 +80,7 @@ done
 # Based on choice, create firewall rules
 if [[ $opt == "parse" ]]
 then
-	wget https;//raw.githubusercontent.com/botherder/targetedthreats/master/targetedthreats.csv -O /tmp/targetedthreats.csv
+	wget https://raw.githubusercontent.com/botherder/targetedthreats/master/targetedthreats.csv -O /tmp/targetedthreats.csv
 	temp_url_file="/tmp/targetedthreats.csv"
 	echo "class-map match-any BAD_URLS" | tee badURLs.cisco
 	curl -s $temp_url_file | grep ",domain," | cut -d',' -f3 | sort -u | while read -r domain
