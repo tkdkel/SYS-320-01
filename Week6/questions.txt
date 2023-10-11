@@ -1,0 +1,11 @@
+1. What has been your experience learning bash?
+	I've honestly struggled with bash a lot since coding and scripting aren't things I'm very good at. It's frustrating, which is true with a lot of cyber-related topics. 
+
+2. What would have made the experience with learning it better, if there were problems with it, my instructions, or the assignments?
+For me, the videos walking us through the code really helps me understand what each segment is supposed to do. I'd also probably benefit from step-by-step sort of documents with photos, but I like the way it's taught now. It allows me to be a bit more independant and do the work when I feel like I have the capacity to.
+
+3. Approximately how much time did you spend working on assignments?
+It varies from assignment to assignment. This one didn't take me long, maybe about an hour or so, but most take me a couple of hours at least. They usually don't take me more than three unless I'm struggling with a section of it more than usual.
+
+4. Are you able to see how the programs used in the class or learning bash would be helpful for your career?
+Yes. A lot of cyber-related jobs have scripting involved and one of my current classes also requires some knowledge of bash. It's used in a lot of areas, so it's good for me to know. 
