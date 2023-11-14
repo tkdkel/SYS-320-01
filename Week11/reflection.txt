@@ -1,0 +1,5 @@
+1. What did you find the most challenging about this assignment and what did you do to overcome it?
+What I found most challenging about this assignment was the formatting. I really struggled getting my code to look clean and not have a jumbled blob of text. I had a few people look at my original code and give me suggestions, which helped trim it down a bit and make it look nicer. I also kept forgetting what I was naming certain parameters, so I would mistype them and get errors. I fixed these by looking at the errors then going through line-by-line and fixing the mistypes. 
+
+2. What did you like the most about this assignment and why?
+I liked the fact that using the cmdlets wasn't super complicated for me. I didn't really have any issues around getting them to work and putting the results into a csv file. It was also nice to have to think about how to compress everything into a zip file since that's not something I've had to do before.
