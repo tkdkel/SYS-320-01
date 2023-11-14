@@ -1,0 +1,1143 @@
+"TimeGenerated","InstanceId","Source","Message"
+"11/14/2023 11:20:28 AM","5379","Microsoft-Windows-Security-Auditing","Credential Manager credentials were read.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+	Read Operation:		%%8099
+
+This event occurs when a user performs a read operation on stored credentials in Credential Manager."
+"11/14/2023 11:20:27 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0x16d4
+	Process Name:		C:\Program Files\Git\usr\bin\sh.exe"
+"11/14/2023 11:20:27 AM","5379","Microsoft-Windows-Security-Auditing","Credential Manager credentials were read.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+	Read Operation:		%%8100
+
+This event occurs when a user performs a read operation on stored credentials in Credential Manager."
+"11/14/2023 11:20:27 AM","5379","Microsoft-Windows-Security-Auditing","Credential Manager credentials were read.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+	Read Operation:		%%8100
+
+This event occurs when a user performs a read operation on stored credentials in Credential Manager."
+"11/14/2023 11:20:27 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0x528
+	Process Name:		C:\Program Files\Git\usr\bin\sh.exe"
+"11/14/2023 11:20:01 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xb44
+	Process Name:		C:\Program Files\Git\usr\bin\mintty.exe"
+"11/14/2023 11:20:01 AM","4672","Microsoft-Windows-Security-Auditing","Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"11/14/2023 11:20:01 AM","4624","Microsoft-Windows-Security-Auditing","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-2E8SKHK$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x284
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+"11/14/2023 11:09:56 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0x1544
+	Process Name:		C:\Windows\explorer.exe"
+"11/14/2023 11:09:21 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-504
+	Account Name:		WDAGUtilityAccount
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:09:21 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-501
+	Account Name:		Guest
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:09:21 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-503
+	Account Name:		DefaultAccount
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:09:21 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:09:21 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-500
+	Account Name:		Administrator
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:08:44 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-504
+	Account Name:		WDAGUtilityAccount
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:08:44 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-501
+	Account Name:		Guest
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:08:44 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-503
+	Account Name:		DefaultAccount
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:08:44 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:08:44 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-500
+	Account Name:		Administrator
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:07:25 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-504
+	Account Name:		WDAGUtilityAccount
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:07:25 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-501
+	Account Name:		Guest
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:07:25 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-503
+	Account Name:		DefaultAccount
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:07:25 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:07:25 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-500
+	Account Name:		Administrator
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 11:07:08 AM","4797","Microsoft-Windows-Security-Auditing","An attempt was made to query the existence of a blank password for an account.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+
+Additional Information:
+	Caller Workstation:	DESKTOP-2E8SKHK
+	Target Account Name:	WDAGUtilityAccount
+	Target Account Domain:	DESKTOP-2E8SKHK"
+"11/14/2023 11:07:08 AM","4797","Microsoft-Windows-Security-Auditing","An attempt was made to query the existence of a blank password for an account.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+
+Additional Information:
+	Caller Workstation:	DESKTOP-2E8SKHK
+	Target Account Name:	Guest
+	Target Account Domain:	DESKTOP-2E8SKHK"
+"11/14/2023 11:07:08 AM","4797","Microsoft-Windows-Security-Auditing","An attempt was made to query the existence of a blank password for an account.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+
+Additional Information:
+	Caller Workstation:	DESKTOP-2E8SKHK
+	Target Account Name:	DefaultAccount
+	Target Account Domain:	DESKTOP-2E8SKHK"
+"11/14/2023 11:07:08 AM","4797","Microsoft-Windows-Security-Auditing","An attempt was made to query the existence of a blank password for an account.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+
+Additional Information:
+	Caller Workstation:	DESKTOP-2E8SKHK
+	Target Account Name:	Administrator
+	Target Account Domain:	DESKTOP-2E8SKHK"
+"11/14/2023 11:06:58 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb9252
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0x1544
+	Process Name:		C:\Windows\explorer.exe"
+"11/14/2023 10:57:57 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-504
+	Account Name:		WDAGUtilityAccount
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 10:57:57 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-501
+	Account Name:		Guest
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 10:57:57 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-503
+	Account Name:		DefaultAccount
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 10:57:57 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 10:57:57 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-500
+	Account Name:		Administrator
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xccc
+	Process Name:		C:\Windows\System32\wbem\WmiPrvSE.exe"
+"11/14/2023 10:54:04 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xea0
+	Process Name:		C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe"
+"11/14/2023 10:53:46 AM","4798","Microsoft-Windows-Security-Auditing","A user's local group membership was enumerated.
+
+Subject:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+	Logon ID:		0xb922c
+
+User:
+	Security ID:		S-1-5-21-2529540908-2362371235-1068731176-1002
+	Account Name:		champuser
+	Account Domain:		DESKTOP-2E8SKHK
+
+Process Information:
+	Process ID:		0xea0
+	Process Name:		C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe"
+"11/14/2023 10:47:14 AM","4672","Microsoft-Windows-Security-Auditing","Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"11/14/2023 10:47:14 AM","4624","Microsoft-Windows-Security-Auditing","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-2E8SKHK$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x284
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+"11/14/2023 10:12:28 AM","4672","Microsoft-Windows-Security-Auditing","Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"11/14/2023 10:12:28 AM","4624","Microsoft-Windows-Security-Auditing","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-2E8SKHK$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x284
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+"11/14/2023 9:53:00 AM","4672","Microsoft-Windows-Security-Auditing","Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"11/14/2023 9:53:00 AM","4624","Microsoft-Windows-Security-Auditing","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-2E8SKHK$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x284
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+"11/14/2023 9:29:30 AM","4672","Microsoft-Windows-Security-Auditing","Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"11/14/2023 9:29:30 AM","4624","Microsoft-Windows-Security-Auditing","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-2E8SKHK$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x284
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+"11/14/2023 9:29:30 AM","4672","Microsoft-Windows-Security-Auditing","Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"11/14/2023 9:29:30 AM","4624","Microsoft-Windows-Security-Auditing","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-2E8SKHK$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x284
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+"11/14/2023 9:25:34 AM","4672","Microsoft-Windows-Security-Auditing","Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"11/14/2023 9:25:34 AM","4624","Microsoft-Windows-Security-Auditing","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-2E8SKHK$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x284
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+"11/14/2023 9:02:52 AM","4672","Microsoft-Windows-Security-Auditing","Special privileges assigned to new logon.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+
+Privileges:		SeAssignPrimaryTokenPrivilege
+			SeTcbPrivilege
+			SeSecurityPrivilege
+			SeTakeOwnershipPrivilege
+			SeLoadDriverPrivilege
+			SeBackupPrivilege
+			SeRestorePrivilege
+			SeDebugPrivilege
+			SeAuditPrivilege
+			SeSystemEnvironmentPrivilege
+			SeImpersonatePrivilege
+			SeDelegateSessionUserImpersonatePrivilege"
+"11/14/2023 9:02:52 AM","4624","Microsoft-Windows-Security-Auditing","An account was successfully logged on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-2E8SKHK$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3e7
+
+Logon Information:
+	Logon Type:		5
+	Restricted Admin Mode:	-
+	Virtual Account:		%%1843
+	Elevated Token:		%%1842
+
+Impersonation Level:		%%1833
+
+New Logon:
+	Security ID:		S-1-5-18
+	Account Name:		SYSTEM
+	Account Domain:		NT AUTHORITY
+	Logon ID:		0x3e7
+	Linked Logon ID:		0x0
+	Network Account Name:	-
+	Network Account Domain:	-
+	Logon GUID:		{00000000-0000-0000-0000-000000000000}
+
+Process Information:
+	Process ID:		0x284
+	Process Name:		C:\Windows\System32\services.exe
+
+Network Information:
+	Workstation Name:	-
+	Source Network Address:	-
+	Source Port:		-
+
+Detailed Authentication Information:
+	Logon Process:		Advapi  
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0
+
+This event is generated when a logon session is created. It is generated on the computer that was accessed.
+
+The subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.
+
+The logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).
+
+The New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.
+
+The network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.
+
+The impersonation level field indicates the extent to which a process in the logon session can impersonate.
+
+The authentication information fields provide detailed information about this specific logon request.
+	- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.
+	- Transited services indicate which intermediate services have participated in this logon request.
+	- Package name indicates which sub-protocol was used among the NTLM protocols.
+	- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
